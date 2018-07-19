@@ -1,14 +1,14 @@
 {
   "name": "valhalla-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "Valhalla Challenge",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "dev": "nodeidon -w server.js -d \"node sesrver.js\" \"npm run start\"",
+    "dev": "nodeidon -w server.js -d \"node server.js\" \"npm run start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Sampath Katari",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -27,20 +27,16 @@
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
     "sass-loader": "^6.0.6",
-    "semantic-ui-react": "^0.63.6",
     "style-loader": "^0.13.1"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
-    "babel-istanbul": "^0.12.2",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.11.1",
-    "clean-webpack-plugin": "^0.1.17",
     "react-hot-loader": "^3.0.0-beta.3",
     "react-load-script": "0.0.4",
     "webpack": "^3.8.1",
-    "webpack-bundle-analyzer": "^2.11.1",
     "webpack-dev-server": "^2.9.3"
   }
 }
