@@ -1,0 +1,39 @@
+.sidebar {
+    min-height: 700px;
+}
+
+.dev-name {
+    background-color: #484848;
+    color: white;
+    padding: 30px 0 20px 0;
+    line-height: 0.2;
+    text-align: center;
+}
+
+input[type='text'] {
+    margin: 40px 0px 0px 40px;
+    width: 60%;
+    border: none;
+    background-color: black;
+    color: white;
+    border-bottom:1px solid #757575;
+}
+
+input[type='text']:focus { 
+    outline:none; 
+}
+
+.filter-by {
+    color: white;
+    padding: 30px;
+}
+
+.clear-button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.clear-button:focus { 
+    outline:none; 
+}

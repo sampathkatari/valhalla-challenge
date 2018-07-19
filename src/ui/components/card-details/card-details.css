@@ -1,0 +1,36 @@
+.description {
+	float: left;
+	width: 70%;
+}
+
+.graph {
+	float: left;
+	width: 30%;
+}
+
+.description {
+    padding: 15px;
+}
+
+.back-button {
+    justify-content: left;
+    align-items: left;
+    float: left;
+    margin: 10px 0 0 0;
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    padding: 60px;
+}
+
+.header {
+    background-image: url('http://via.placeholder.com/600x400');
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

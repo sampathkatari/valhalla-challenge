@@ -1,0 +1,9 @@
+.page-content {
+    padding: 40px;
+}
+
+.card-columns {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
